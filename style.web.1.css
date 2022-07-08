@@ -1,0 +1,310 @@
+a:link,
+a:visited{
+    color:white;
+}
+a:hover{
+    color: black;
+}
+a:active{
+    color:royalblue ;
+}
+#contatofim{
+    position:relative;
+    width: 100%;
+    Height:90px;
+    border: 4px solid royalblue;
+    top:340%;
+    background-color: royalblue;
+    text-align: center;
+    color:black;
+}
+
+#H1Imagens{
+    position:absolute;
+    top:475%;
+    left:-10%;
+}
+
+#F4{
+    position:absolute;
+    text-align: center;
+    top:110%;
+    left:20%;
+    height: auto;
+    width: 70%;
+    background-color: antiquewhite;
+    color:black;
+}
+
+#F3{
+    position:absolute;
+    text-align: center;
+    top:110%;
+    left:100%;
+    height: auto;
+    width: 70%;
+    background-color: antiquewhite;
+    color:black;
+}
+
+#perguntasfrq{
+    position: absolute;
+    text-align: center;
+    top:370%;
+    left:35%;
+}
+#F2{
+    /*Arrumar o posicionamento*/
+    position:absolute;
+    top:10%;
+    border:4px solid antiquewhite;
+    width:70%;
+    left:110%;
+    height:55%;
+    background-color: antiquewhite;
+    color:black;
+    text-align: center;
+    float:left;
+    /*Arrumar a box*/
+}
+
+.F1{
+    position:absolute;
+    top:380%;
+    border:4px solid antiquewhite;
+    width:60%;
+    left:-10%;
+    height:45%;
+    background-color: antiquewhite;
+    color:black;
+    text-align: center;
+}
+
+#E1{
+    border: 4px solid black;
+    background-color:gray;
+    color:black;
+    font-family:Arial;
+}
+
+#E2{
+    border: 4px solid black;
+    background-color:white;
+    color:black;
+    font-family:Arial;
+    font-size:medium
+}
+
+#servicostext{
+    text-align: center;
+}
+
+.Servicosprecos{
+    position:absolute;
+    top:330%;
+    /*box-sizing: border-box;*/
+    text-align: justify;
+    left:30%;
+    height: auto;
+    width: auto;
+
+}
+
+/*Aqui vai ficar a parte da equipe*/
+#Tadeu1{
+    border: 5px solid blue;
+    width: 90%;
+    height: 45%;
+    left: -9%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#Bruna1{
+    border: 5px solid gray;
+    width: 90%;
+    height: 45%;
+    left: -9%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#Jorginho1{
+    border: 5px solid gray;
+    width: 90%;
+    height: 45%;
+    left: -9%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#Maria1{
+    border: 5px solid blue;
+    width: 90%;
+    height: 45%;
+    left: -9%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#Equipeimagens{
+    position:relative;
+    top:150px;
+    right:5%;
+    margin:30%,5%,0%,5%;
+}
+
+/*CUIDADO!!!LEMBRAR DE COLOCAR FONTES IGUIAS não NECESSARIAMENTE MAS SINTATICAMENTE*/
+#sobreemprebaixo{
+    position:absolute;
+    top:280%;
+    border:4px solid white;
+    width:80%;
+    left:10%;
+    height:35%;
+    background-color: royalblue;
+    color:black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sobreempresacima{
+    position:absolute;
+    top:260%;
+    border:4px solid white;
+    width:80%;
+    left:10%;
+    height:14%;
+    background-color: royalblue;
+    color:black;
+    font-size:medium;
+
+}
+
+.Fotoclientes{
+    /*Lembrar que absoluto deixa ele relativo ou seja submisso ao seu pai*/
+    position:absolute;
+    top:110%;
+    left:-10%;
+
+}
+
+#textohistoria{
+    text-align: justify;
+    background-color:silver;
+    color:black;
+    width: 70%;
+    height: 90%;
+    position:relative;
+    left:15%;
+    margin-top:10%,5%,15%,10%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    /*Lembrar de alinhar relativamente as divs*/
+    
+}
+
+.boxquemsomos{
+    /*Arrumar posição da box*/
+  border:3px solid gray;
+  color:black;
+  width: 70%;
+  height: 119%;
+  position: absolute;
+  text-align: center;
+  top:30%;
+  margin:5%,10%,0%,5%;
+  background-color: silver;
+  left: 15%;
+  font-family: 'Courier New', Courier, monospace;
+}
+.Menubox{
+    position:absolute;
+    border: 8px solid royalblue;
+    /*Atura*/
+    height:15%;
+    /*Largura*/
+    width:98%;
+    text-align: center;
+    top:2px;
+    margin:10px,5px,10px,5px;
+    padding:0px;
+    background-color:royalblue;
+}
+
+.Imagemlogo{
+    position:absolute;
+    left:6%;
+    top:3%;
+    /*Posição e tamanho da imagem, Objetivo deixar a borda mais o menos no tamanho da imagem*/
+}
+
+.Home{
+    position:relative;
+    top:10px;
+    text-align:end;
+    font-size: 90%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    left:30%;
+    /*Esse background esta dando cor a linha */
+    background-color: royalblue;
+    /*Adcionando as cores*/
+    margin: 0px,0px,0px,0px;
+    text-align: justify;
+    width: 20px;
+
+    
+}
+
+#Historia{
+    padding:25px;
+    border:25px;
+    margin:20px;
+    color:white;
+    background-color: royalblue;
+
+}
+
+#Sobre{
+    padding:25px;
+    border:25px;
+    margin:20px;
+    color:white;
+    background-color: royalblue;
+}
+
+#Equipe{
+    padding:25px;
+    border:25px;
+    margin:20px;
+    color:white;
+    background-color: royalblue;
+}
+
+#Clientes{
+    padding:25px;
+    border:25px;
+    margin:20px;
+    color:white;
+    background-color: royalblue;
+}
+
+#Servicos{
+    padding:25px;
+    border:25px;
+    margin:20px;
+    color:white;
+    background-color: royalblue;
+}
+
+#Perguntas{
+    padding:25px;
+    border:25px;
+    margin:20px;
+    color:white;
+    background-color: royalblue;
+}
+
+#Contato{
+    padding:25px;
+    border:25px;
+    margin:20px;
+    color:white;
+    background-color: royalblue;
+}
